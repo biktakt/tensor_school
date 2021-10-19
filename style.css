@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Melange Nouveau';
+    src: url('source/Melange Nouveau_0.ttf') format('truetype')
+}
+
+body {
+    background: #c9e9ff;
+    font-size: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Melange Nouveau', serif;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    height: 100%;
+}
+
+.content {
+    margin-top: 15px;
+    width: 65vw;
+    flex-direction: column;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 45px; 
+}
+
+.content h2{
+    padding: 5px 0;
+    font-size: 35px; 
+}
+
+.img-block {
+    text-align: center;
+    width: 100%;
+}
+
+.img-block p {
+    font-size: 30px;
+}
+
+.img-block img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+}
+
+.about ul{
+    padding: 0 22px;
+}
+
+.links {
+    margin: 0 0 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.links li {
+    line-height: 30px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: black;
+}
